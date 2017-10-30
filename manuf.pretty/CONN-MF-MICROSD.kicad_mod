@@ -1,4 +1,4 @@
-(module CONN-MF-MICROSD (layer F.Cu) (tedit 57AA0246)
+(module CONN-MF-MICROSD (layer F.Cu) (tedit 59B60488)
   (fp_text reference REF** (at 0 -6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -38,4 +38,9 @@
   (pad SH smd rect (at 4.1 -2.85) (size 1.4 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at -3.2 10.3) (size 1.8 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 2.5 10.3) (size 1.8 1.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/3m.3dshapes/2908-05xx-xx-02.stp
+    (at (xyz -0.09842519685039371 -0.1220472440944882 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
