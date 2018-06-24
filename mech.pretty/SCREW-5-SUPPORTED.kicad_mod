@@ -1,0 +1,20 @@
+(module SCREW-5-SUPPORTED (layer F.Cu) (tedit 5B2F4096)
+  (fp_text reference MP1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value SCREW (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 9 9) (drill 5.1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 3.5 0) (size 1 1) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 1.75 -3.031089 60) (size 1 1) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -1.75 -3.031089 120) (size 1 1) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -3.5 0 180) (size 1 1) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -1.75 3.031089 240) (size 1 1) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 1.75 3.031089 300) (size 1 1) (drill 0.7) (layers *.Cu *.Mask))
+  (model details/vite_2mm5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
